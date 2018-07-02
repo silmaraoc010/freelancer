@@ -1,3 +1,315 @@
-/*
- * Estilos de tu proyecto
- */
+/* Estilos de tu proyecto */
+
+body {
+  margin:0 auto;
+  padding: 0;
+}
+
+nav{
+  position: fixed;
+  width: 100%;
+  background-color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: white;
+  border: none;
+  height: 90px;
+}
+
+nav > div > h1{
+  float: left;
+
+
+    margin-top: 26px;
+    margin-right: 0px;
+    margin-left: 137px;
+    margin-bottom: 0px;
+
+
+}
+
+nav > div.menu-bar > a:hover{
+  color: #18bc9c;
+}
+
+a:visited{
+  color: white;
+}
+
+main > .title{
+  display: block;
+  font-size: 65px;
+  margin: 0;
+  margin-bottom: 21px;
+    margin-top: 22px;
+    margin-right: 0px;
+    margin-left: 1px;
+
+}
+
+main > span:after { 
+  display: inline-block;
+  margin: 12px 2px;
+  height: 5px; 
+  content: " ";
+  background-color: white;
+  width: 100px;
+}
+
+main > .skills{
+  font-size: 25px;
+  margin-top: 19px;
+}
+
+section > h2,
+footer > h2{
+  font-size: 42px;
+  margin-top: 89px;
+  margin-bottom: 20px;
+}
+
+section > span:after{
+  display: inline-block;
+  margin: 12px 2px;
+  height: 5px; 
+  content: " ";
+  background-color: #2c3e50;
+  width: 100px;
+}
+
+input, textarea { 
+  padding-right: 0;
+  padding-left: 0;
+  padding-top: 1em;
+  padding-bottom: 1.5em;
+  font-size: 24px;
+  font-weight: 400;
+  border: 0;
+  border-bottom: 1px solid #eee;
+  width: 53%;
+  color: #848e97;
+}
+
+strong{
+  color: #18bc9c;
+}
+img{
+
+    margin-bottom: 0px;
+    margin-top: 42px;
+    margin-right: 11px;
+    width: 230px;
+    border-left-width: 0px;
+
+}
+
+#about{
+  padding-top: 20px;
+  text-align: center;
+  background: #18bc9c ;
+  width: 100%;
+  height: 528px;
+  color: white;
+}
+
+#about > div {
+  display: block;
+}
+
+#about > span:after{
+  display: inline-block;
+  margin: 10px 8px;
+  height: 4px; 
+  content: " ";
+  background-color: white;
+  width: 100px;
+}
+
+#address-socialmedia-about{
+  text-align: center;
+}
+
+#address-socialmedia-about > div{
+  display: inline-table;
+  margin: 0px 10px;
+  padding: 15px 25px;
+}
+#address-socialmedia-about > div > p{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#contact{
+  padding-top: 20px;
+  text-align: center;
+  width: 100%;
+  height: 900px;
+  color: #2c3e50;
+}
+
+#footer{
+  padding-top: 20px;
+  text-align: center;
+  width: 100%;
+  height: 300px;
+  background-color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: white;
+  border: none;
+}
+
+#projects{
+  text-align: center;
+}
+
+#projects > div {
+  display: inline-block;
+  margin: 10px 1px;
+  padding-top: 0 px;
+}
+
+#projects > div > img{
+  width: 300px;
+  margin-top: 0px; 
+  margin-bottom: 42px
+}
+
+#portfolio{
+ 
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  height: 550;
+  color: #2c3e50;
+}
+
+#screen-1{
+  padding-top: 30px;
+  text-align: center;
+  background: #18bc9c ;
+  width: 100%;
+  height: 692px;
+  color: white;
+}
+
+.about{
+  width: 300px;
+  margin: 0;
+}
+
+.button{
+  display:inline-block;
+  border: 2px;
+  border-style: solid;
+  border-color: white;
+  padding: 18px 0px;
+  width: 200px;
+  margin-left: 41%;
+  border-radius: 5px;
+  color: white;
+  height: 5px;
+}
+
+.button-contact{
+  display: block;
+  border: 2px;
+  padding: 12px 0px;
+  width: 68px;
+  margin-left: 23.5%;
+  margin-top: 20px;
+  border-radius: 5px;
+  color: white;
+  background-color: #18bc9c;
+  font-size: 20px;
+}
+
+.button > a{
+  padding-left: 10px;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.clear {
+  clear: left;
+}
+
+.copy{
+  display: block;
+  padding-top: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+
+.icon{
+
+  border: solid 2px;
+  width: 28px;
+  height: 28px;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-left: 15px;
+  padding: 8px 8px;
+}
+
+.lato{
+  font-family: 'Lato', sans-serif;
+}
+
+.location{
+  width: 220px;
+  margin: 0;
+}
+
+.menu {
+  float: right;
+  padding-right: 17px;
+  color:white;
+  margin-top: 42px;
+  font-size: 13.6px;
+}
+
+.menu-barra{
+  margin-right: 100px;
+}
+
+.montserrat{
+  font-family: 'Montserrat', sans-serif;
+
+
+
+}
+
+.paragraph{ 
+  display: inline-table; 
+  width: 25.7%; 
+  font-size: 20px; 
+  text-align: left; 
+  margin: 30px 15px; 
+  line-height: 1.5; 
+  font-weight: 400;
+}
+
+.profile-pic{
+  display:inline-block;
+  margin-top: 120px;
+}
+
+.social{
+  width: 330px;
+  margin: 0;
+}
+
+.star-bar{
+  display: inline-block;
+  width: 260px;
+}
+
+.text-uppercase {
+ text-transform: uppercase;
+
+
+}
+
